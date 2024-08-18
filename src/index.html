@@ -16,14 +16,15 @@
     <!-- Header -->
     <header>
         <div id="navbar">
-            <img src="./Images/job-logo.png" alt="logo" height="40px">
+            <img id="logo" src="./Images/job-logo.png" alt="logo">
+            <img id="logo-text" src="./Images/job-logo.png" alt="logo-with-text">
             <span id="logo-name">Job's Op</span>
         </div>
     </header>
 
     <!-- Banner Image -->
     <div id="banner-image">
-        <img id="banner" src="./Images/banner.jpg" alt="Banner Image" height="360">
+        <img id="banner" src="./Images/banner.jpg" alt="Banner Image">
     </div>
 
     <!-- About -->
@@ -32,10 +33,10 @@
     </h1>
     <div id="about">
         <div id="description">
-            <p style="margin-top: 0;">
+            <p id="texts-desc" style="margin-top: 0;">
                 Jobs are evolving with technology and globalization, creating diverseopportunities in remote work, gig
                 economy, and automation. Continuous learning, inclusivity, and jobsatisfaction are crucial for thriving
-                in the dynamic labor market. Adaptability is key.</p>
+                in the dynamic labor market.</p>
             <p>
                 We also offer 2 industry-focused bootcamp:
             <ol>
@@ -56,6 +57,34 @@
     <!-- Jobs Opportunities -->
     <h2>Job Opportunities</h2>
     <div id="jobs">
+
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">Frontend Developer</div>
+                <div class="job-detail">Bengaluru, India</div>
+                <div class="job-detail">₹ 12,00,000</div>
+                <div class="job-detail">Posted Mar 3, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Full Stack Developer</div>
+                <div class="job-detail">New Delhi, India</div>
+                <div class="job-detail">₹ 15,00,000</div>
+                <div class="job-detail">Posted Feb 1, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Data Scientist</div>
+                <div class="job-detail">San Francisco, USA</div>
+                <div class="job-detail">$175,000</div>
+                <div class="job-detail">Posted Dec 22, 2022</div>
+            </div>
+            <div class="job">
+                <div class="job-title">ML Engineer</div>
+                <div class="job-detail">Remote</div>
+                <div class="job-detail">$80,000</div>
+                <div class="job-detail">Posted Sep 19, 2022</div>
+            </div>
+        </div>
+
         <table id="jobs-table">
             <tr class="jobs-header-row">
                 <th rowspan="2">Job Title</th>
