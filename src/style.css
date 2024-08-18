@@ -12,8 +12,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   color: #222222;
 }
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
 
 a {
   text-decoration: none;
@@ -28,8 +36,9 @@ a:hover {
 #navbar {
   display: flex;
   align-items: center;
-  max-width: 900px;
-  margin: 5px auto;
+  max-width: 100%;
+  padding: 8px;
+  margin: 0;
   gap: 8px;
 }
 #logo-name {
@@ -40,8 +49,7 @@ a:hover {
 
 /* Banner Image */
 #banner-image {
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 #banner {
   width: 100%;
@@ -54,13 +62,14 @@ a:hover {
 }
 #about {
   display: flex;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 8px;
 }
 #description {
   width: 50%;
   padding-right: 8px;
+  font-size: 1.25rem;
 }
 #team {
   width: 50%;
@@ -75,7 +84,7 @@ h2 {
   text-align: center;
 }
 #jobs {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 8px;
 }
@@ -101,7 +110,7 @@ h2 {
 
 /* Form */
 #application {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 8px;
 }
@@ -111,7 +120,7 @@ h2 {
 }
 
 .form-group {
-  margin: 16px;
+  margin: 16px 0  ;
 }
 
 #application-form label {
@@ -147,7 +156,7 @@ h2 {
 
 /* Footer */
 #footer {
-  background-color: ghostwhite;
+  background-color: #E2E8F0;
   padding: 8px;
   padding-bottom: 20px;
   margin-top: 35px;
@@ -163,3 +172,4 @@ h2 {
 #copyright {
   color: #6b7280;
 }
+
