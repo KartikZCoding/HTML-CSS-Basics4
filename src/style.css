@@ -225,6 +225,10 @@ h2 {
     margin: 4px 0px 16px 0px;
   }
 
+  #application h2 {
+    margin-top: 20px;
+  }
+
   .form-group input, select, textarea{
     width: auto;
   }
